@@ -50,7 +50,8 @@ body {
 
 @media screen and (width <= 576px) {
   .main-info,
-  .contact-info-container {
+  .contact-info-container,
+  .skills-container {
     flex-direction: column;
   }
 
