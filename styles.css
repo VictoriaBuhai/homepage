@@ -16,6 +16,12 @@ body {
   --text-decoration-color: #b286cb;
 }
 
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 30px;
@@ -124,6 +130,10 @@ body {
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
+}
+.skills__container {
+  display: flex;
+  gap: 6em;
 }
 .experiences {
   flex: 1 1 60%;
