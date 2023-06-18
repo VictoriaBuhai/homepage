@@ -97,26 +97,22 @@ body {
 .intro {
   display: flex;
   justify-content: start;
+  flex-direction: column;
 }
 
 .intro__icon-wrapper {
-  width: 30px;
   display: flex;
-  justify-content: center;
-}
-
-.intro__icon {
-  height: 1.1428rem;
-  vertical-align: text-bottom;
-}
-
-.intro__icon path {
-  fill: var(--text-decoration-color);
+  justify-content: end;
 }
 
 .intro_text {
   color: var(--secondary-text-color);
   text-align: justify;
+}
+
+.intro_text img {
+  float: right;
+  padding: 1rem 0 1rem 1rem;
 }
 
 .skills__header {
